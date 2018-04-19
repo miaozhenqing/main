@@ -1,0 +1,27 @@
+server:
+  port: 8094
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+zuul:
+  routes:
+    biz:
+      path: /api-biz/**
+      serviceId: biz
+#    front:
+#      path: /api-front/**
+#      serviceId: front
+hystrix:
+  command:
+    scyp-system:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 50000
+  ReadTimeout: 50000
