@@ -7,15 +7,14 @@ eureka:
   instance:
     hostname: master
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: false #在默认设置下,该服务注册中心也会将自己作为客户端来尝试注册它自己,设置为false
+    fetch-registry: false #不需要去检索服务，设置为 false
     serviceUrl:
-      defaultZone: http://backup:8091/eureka/
-    #开启健康体检
-    healthcheck:
-      enabled: true
+      defaultZone: http://localhost:8090/eureka/
   server:
-    #开发阶段关闭，确保注册中心剔除不可用实例
+    #自我保护:开发阶段关闭，确保注册中心剔除不可用实例
+    #在运行期间，会统计心跳失败的比例在15分钟之内是否低于85%, 如果出现低于的情况， Eureka
+    #Server会将当前的实例注册信息保护起来， 让这些实例不会过期， 尽可能保护这些注册信息
     enable-self-preservation: false
-    #eureka server清理无效节点的时间间隔，默认60000毫秒，即60秒
-    eviction-interval-timer-in-ms: 3000
+    #eureka server清理无效节点的时间间隔，默认60000毫秒，即60秒。将90秒（默认）未续约的服务剔除
+    eviction-interval-timer-in-ms: 1000
