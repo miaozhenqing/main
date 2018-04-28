@@ -6,23 +6,26 @@ spring:
 eureka:
   client:
   #开启健康体检 MyHealthChecker UpController
-    healthcheck:
-      enabled: true
+#    healthcheck:
+#      enabled: true
     serviceUrl:
-      defaultZone: http://localhost:8090/eureka/
+      defaultZone: http://localhost:8090/eureka/,http://localhost:8091/eureka/
     #表示eureka client间隔多久去拉取服务注册信息，默认为30秒
     registry-fetch-interval-seconds: 1
   instance:
-      #主机名
-    hostname: ${spring.cloud.client.ipAddress}
-#    hostname: ${spring.cloud.client.ipAddress}:${spring.application.name}:${spring.application.instance_id:${server.port}}
+#      #主机名
+#    hostname: ${spring.cloud.client.ipAddress}
+##    hostname: ${spring.cloud.client.ipAddress}:${spring.application.name}:${spring.application.instance_id:${server.port}}
     #服务续约任务的调用间隔时间 默认30秒  #表示eureka client发送心跳给server端的频率
     lease-renewal-interval-in-seconds: 1
-    #服务失效的时间 默认90秒  #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance
+#    #服务失效的时间 默认90秒  #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance
     lease-expiration-duration-in-seconds: 2
 
 ##    #默认Instance id
 ##    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
 #    instance-id:
 #    #是否优先使用IP地址作为主机名的标识
-#    prefer-ip-address: true
+##    prefer-ip-address: true
+info:
+  app:
+    version: v1.0.0

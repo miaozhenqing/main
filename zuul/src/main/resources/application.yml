@@ -7,6 +7,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8090/eureka/
+    registry-fetch-interval-seconds: 1
 zuul:
   routes:
     biz:
@@ -22,7 +23,10 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 1000
 ribbon:
-  ConnectTimeout: 50000
-  ReadTimeout: 50000
+  ConnectTimeout: 2000
+  ReadTimeout: 2000
+biz:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HiController {
     @RequestMapping("/hi")
     public String sayHi( String name){
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("*********执行 biz 方法 sayHi**********");
         String str = "8092  -   biz: hi ,"+name;
         return str;

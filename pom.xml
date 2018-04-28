@@ -11,6 +11,7 @@
     <modules>
         <module>eureka</module>
         <module>eureka2</module>
+        <module>eureka3</module>
         <module>zuul</module>
         <module>biz</module>
         <module>front</module>

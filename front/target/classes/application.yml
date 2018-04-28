@@ -11,7 +11,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8090/eureka/
+      defaultZone: http://localhost:8090/eureka/,http://localhost:8091/eureka/
     #表示eureka client间隔多久去拉取服务注册信息，默认为30秒
     registry-fetch-interval-seconds: 1
   instance:
@@ -19,3 +19,9 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     #服务失效的时间 默认90秒  #表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance
     lease-expiration-duration-in-seconds: 2
+biz:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 5000
