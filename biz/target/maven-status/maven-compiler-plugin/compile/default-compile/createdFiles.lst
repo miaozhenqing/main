@@ -1,0 +1,12 @@
+com\example\chx\health\MyHealthIndicator.class
+com\example\chx\annotation\TestMain.class
+com\example\chx\annotation\annotations\FruitName.class
+com\example\chx\controller\HiController.class
+com\example\chx\demo\taskschdule\MyJob.class
+com\example\chx\health\MyRestController.class
+com\example\chx\annotation\handle\HandleAnnotation.class
+com\example\chx\BizApplication.class
+com\example\chx\health\MyHealthCheckHandler.class
+com\example\chx\annotation\annotations\FruitColor.class
+com\example\chx\annotation\Apple.class
+com\example\chx\demo\taskschdule\QuartzScheduling.class
