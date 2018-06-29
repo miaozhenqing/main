@@ -1,6 +1,6 @@
 package com.example.chx.controller;
 
-import com.example.chx.annotation.Apple;
+import com.example.chx.demo.annotation.Apple;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

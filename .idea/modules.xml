@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/biz/biz.iml" filepath="$PROJECT_DIR$/biz/biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biz2/biz2.iml" filepath="$PROJECT_DIR$/biz2/biz2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka2/eureka2.iml" filepath="$PROJECT_DIR$/eureka2/eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka3/eureka3.iml" filepath="$PROJECT_DIR$/eureka3/eureka3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/front/front.iml" filepath="$PROJECT_DIR$/front/front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/main.iml" filepath="$PROJECT_DIR$/.idea/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul2/zuul2.iml" filepath="$PROJECT_DIR$/zuul2/zuul2.iml" />
+    </modules>
+  </component>
+</project>
