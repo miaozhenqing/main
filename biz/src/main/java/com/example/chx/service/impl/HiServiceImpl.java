@@ -15,7 +15,8 @@ public class HiServiceImpl implements HiService {
     @Override
     @Cacheable(value = "sayHiCache")
     public String sayHi(String name) {
+        String a="3333333333333";
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>biz 执行 sayHi 方法>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        return "Hi-"+name;
+        return a;
     }
 }
