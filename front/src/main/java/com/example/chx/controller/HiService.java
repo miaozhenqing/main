@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(name = "biz")
 @Service
 public interface HiService {
-    @RequestMapping(value = "/hi",method = RequestMethod.POST)
+    @RequestMapping(value = "/bizDemo/springCache/cacheTest",method = RequestMethod.POST)
     String sayHi(String name);
 }

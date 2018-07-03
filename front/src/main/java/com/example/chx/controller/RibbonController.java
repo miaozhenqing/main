@@ -19,7 +19,7 @@ public class RibbonController {
     RestTemplate restTemplate;
     @Autowired
     private LoadBalancerClient loadBalancerClient;
-    @RequestMapping("getbiz")
+    @RequestMapping("/getbiz")
     public String getbiz(String name){
         this.loadBalancerClient.choose("biz");
         String str = restTemplate.getForObject("http://biz/hi?name="+name,String.class);
