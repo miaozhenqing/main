@@ -22,7 +22,7 @@ public class RibbonController {
     @RequestMapping("/getbiz")
     public String getbiz(String name){
         this.loadBalancerClient.choose("biz");
-        String str = restTemplate.getForObject("http://biz/hi?name="+name,String.class);
+        String str = restTemplate.getForObject("http://biz/session/getshare?name="+name,String.class);
         return str;
     }
 
