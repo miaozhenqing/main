@@ -14,6 +14,7 @@ public class sort {
         quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
+    //快排（百度百科）
     private static void quickSort(int arr[],int low,int high){
         int l=low;
         int h=high;

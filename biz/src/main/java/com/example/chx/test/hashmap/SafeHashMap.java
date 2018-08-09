@@ -19,6 +19,8 @@ public class SafeHashMap {
         Map<String,String> concurrentMap= new ConcurrentHashMap<>();
 
         Map<String,String> synchronizedHashMap= Collections.synchronizedMap(new HashMap<>());
+        synchronizedHashMap.put("name","toooooooooom");
+        synchronizedHashMap.get("name");
     }
 
 }

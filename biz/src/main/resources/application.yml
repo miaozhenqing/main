@@ -3,8 +3,8 @@ server:
 eureka:
   client:
   #开启健康体检 MyHealthChecker UpController
-#    healthcheck:
-#      enabled: true
+    healthcheck:
+      enabled: true
     serviceUrl:
       defaultZone: http://localhost:8090/eureka/
     #表示eureka client间隔多久去拉取服务注册信息，默认为30秒

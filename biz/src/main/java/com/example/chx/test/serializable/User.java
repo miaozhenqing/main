@@ -27,4 +27,8 @@ public class User implements Serializable{
     public void setAge(String age) {
         this.age = age;
     }
+
+    public void sayHi(){
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>hi");
+    }
 }
