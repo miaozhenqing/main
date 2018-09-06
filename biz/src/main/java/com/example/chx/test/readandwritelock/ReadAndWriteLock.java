@@ -39,4 +39,7 @@ public class ReadAndWriteLock {
             write.unlock();
         }
     }
+    public void test(){
+        ReentrantReadWriteLock lock=new ReentrantReadWriteLock();
+    }
 }

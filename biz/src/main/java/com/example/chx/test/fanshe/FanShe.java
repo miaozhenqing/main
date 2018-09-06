@@ -10,6 +10,8 @@ import com.example.chx.test.serializable.User;
  */
 public class FanShe {
     public static void main(String[] args) throws Exception{
+        String[] aa=args;
+        System.out.println(args);
         Class<User> clazz = User.class;
         Object object = clazz.newInstance();
     }
