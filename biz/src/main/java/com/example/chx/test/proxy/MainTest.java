@@ -15,15 +15,16 @@ public class MainTest {
         //[1]jdk动态代理实现
         UserServiceProxyHandler handler=new UserServiceProxyHandler(new UserServiceImpl());
         //创建代理类实例
-        UserService userServiceImpl= (UserService)Proxy.newProxyInstance(UserService.class.getClassLoader(),new Class[]{UserService.class},handler);
-//        userServiceImpl.addUser();
+//        UserService userServiceImpl= (UserService)Proxy.newProxyInstance(UserService.class.getClassLoader(),new Class[]{UserService.class},handler);
+        UserService userServiceImpl= (UserService)Proxy.newProxyInstance(MainTest.class.getClassLoader(),new UserServiceImpl().getClass().getInterfaces(),handler);
+        userServiceImpl.addUser();
 
         //[2]cglib动态代理
-        CglibHandler cglibHandler=new CglibHandler();
-        Enhancer enhancer=new Enhancer();
-        enhancer.setSuperclass(UserServiceImpl.class);
-        enhancer.setCallback(cglibHandler);
-        UserServiceImpl userService = (UserServiceImpl) enhancer.create();
-        userService.addUser();
+//        CglibHandler cglibHandler=new CglibHandler();
+//        Enhancer enhancer=new Enhancer();
+//        enhancer.setSuperclass(UserServiceImpl.class);
+//        enhancer.setCallback(cglibHandler);
+//        UserServiceImpl userService = (UserServiceImpl) enhancer.create();
+//        userService.addUser();
     }
 }
