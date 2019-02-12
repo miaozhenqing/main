@@ -1,6 +1,7 @@
 package com.example.chx.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +18,7 @@ public class HiController {
     private HiService hiService;
 
     @RequestMapping("/sayhi")
-    public String sayHi(String name){
+    public String sayHi(@RequestBody String name){
         String str = hiService.sayHi(name);
         return str;
     }

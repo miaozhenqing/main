@@ -16,14 +16,14 @@ public class MainTest {
         UserServiceProxyHandler handler=new UserServiceProxyHandler(new UserServiceImpl());
         //创建代理类实例
         UserService userServiceImpl= (UserService)Proxy.newProxyInstance(UserService.class.getClassLoader(),new Class[]{UserService.class},handler);
-//        userServiceImpl.addUser();
+        userServiceImpl.addUser();
 
         //[2]cglib动态代理
-        CglibHandler cglibHandler=new CglibHandler();
-        Enhancer enhancer=new Enhancer();
-        enhancer.setSuperclass(UserServiceImpl.class);
-        enhancer.setCallback(cglibHandler);
-        UserServiceImpl userService = (UserServiceImpl) enhancer.create();
-        userService.addUser();
+//        CglibHandler cglibHandler=new CglibHandler();
+//        Enhancer enhancer=new Enhancer();
+//        enhancer.setSuperclass(UserServiceImpl.class);
+//        enhancer.setCallback(cglibHandler);
+//        UserServiceImpl userService = (UserServiceImpl) enhancer.create();
+//        userService.addUser();
     }
 }

@@ -17,5 +17,6 @@
         <module>front</module>
         <module>biz2</module>
         <module>zuul2</module>
+        <module>common</module>
     </modules>
 </project>

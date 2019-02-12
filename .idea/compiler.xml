@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="biz" />
         <module name="biz2" />
+        <module name="common" />
         <module name="eureka" />
         <module name="eureka2" />
         <module name="eureka3" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="biz" target="1.8" />
       <module name="biz2" target="1.8" />
+      <module name="common" target="1.5" />
       <module name="eureka" target="1.8" />
       <module name="eureka2" target="1.8" />
       <module name="eureka3" target="1.8" />

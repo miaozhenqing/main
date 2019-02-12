@@ -10,6 +10,8 @@ spring:
 #      auto-offset-reset: earliest
 eureka:
   client:
+    register-with-eureka: false #在默认设置下,该服务注册中心也会将自己作为客户端来尝试注册它自己,设置为false
+    fetch-registry: false #不需要去检索服务，设置为 false
     serviceUrl:
       defaultZone: http://localhost:8090/eureka/
     #表示eureka client间隔多久去拉取服务注册信息，默认为30秒
