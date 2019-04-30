@@ -26,13 +26,13 @@ public class SimpleRouter extends AbstractVerticle {
         HttpServer server = vertx.createHttpServer();
         // 创建路由对象
         Router router= Router.router(vertx);
-        // 监听/index地址
-//        router.route("/index").handler(routingContext ->{
-//            HttpServerResponse response = routingContext.response();
-//            response.putHeader("content-type", "text/plain");
-//
-//            // 写入响应并结束处理
-//            response.end("Hello World !");});
+        // 监听/index地址 post和get
+        router.route("/index").handler(routingContext ->{
+            HttpServerResponse response = routingContext.response();
+            response.putHeader("content-type", "text/plain");
+
+            // 写入响应并结束处理
+            response.end("Hello World !");});
 
 
         //使用POST请求
@@ -41,9 +41,9 @@ public class SimpleRouter extends AbstractVerticle {
 //            response.end("post 调用");
 //        });
         //使用get请求
-        router.route(HttpMethod.GET, "/index").handler(request -> {
-            request.response().end("get 调用");
-        });
+//        router.route(HttpMethod.GET, "/index").handler(request -> {
+//            request.response().end("get 调用");
+//        });
 
         server.requestHandler(router::accept);
         server.listen(8080, (result) -> {
@@ -57,5 +57,12 @@ public class SimpleRouter extends AbstractVerticle {
 
     public static void main(String[] args) {
         Vertx.vertx().deployVerticle(new SimpleRouter());
+    }
+
+
+    //泛型
+    public <T> T sayHello(){
+        System.out.println("hello");
+        return null;
     }
 }

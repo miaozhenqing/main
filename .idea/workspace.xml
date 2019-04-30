@@ -2,40 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7992b6a-bffa-44e1-bd47-d57a793b0844" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/calltest/ILoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/lambda/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty2/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/chx/ILoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/chx/netsession/INetSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/CallTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/DummyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/NetSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/ConsumerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/javaassert/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_5_0_0_Alpha2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_6_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_6_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_6_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_6_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_6_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_6_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_1_4_7_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_1_4_7_BUILD_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/biz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biz2/src/main/java/com/example/chx/test/proxy/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz2/src/main/java/com/example/chx/test/proxy/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biz2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/biz2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biz2/target/classes/com/example/chx/test/proxy/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/biz2/target/classes/com/example/chx/test/proxy/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/main/java/com/example/chx/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main/java/com/example/chx/controller/HiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/front/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/target/classes/com/example/chx/controller/HiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/front/target/classes/com/example/chx/controller/HiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/NioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/netty/EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biz/target/classes/com/example/chx/test/nio/NioTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
@@ -54,27 +50,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/main$SimpleRouter.ic" NAME="SimpleRouter Coverage Results" MODIFIED="1549960605906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.chx.test.vertx.vertx_web.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/guava/eventbus/EventListener.java">
+      <file leaf-file-name="SimpleRouter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/guava/eventbus/MainClient.java">
+      <file leaf-file-name="TestConsumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/TestConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/ConsumerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/function/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -82,15 +109,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cache</find>
-      <find>redis</find>
       <find>synchronized</find>
       <find>get</find>
       <find>get(</find>
@@ -118,6 +143,9 @@
       <find>1.0-SNAPSHOT</find>
       <find>method.invoke</find>
       <find>Object invoke</find>
+      <find>io.netty.channel.nio.NioEventLoopGroup</find>
+      <find>Dio.netty.leakDetectionLevel</find>
+      <find>future</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\.m2\repository\io\netty\netty-all\5.0.0.Alpha2\netty-all-5.0.0.Alpha2.jar!\io\netty\bootstrap</dir>
@@ -130,16 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/hashmap/SafeHashMap.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/readandwritelock/ReadAndWriteLock.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/fanshe/FanShe.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/thread/consumerandproducer/Things.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/thread/consumerandproducer/Consumer.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/thread/consumerandproducer/Producer.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/thread/consumerandproducer/Client.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/abstracttest/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/test/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/atest/AbstractTest.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/atest/AbstractTest1.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/atest/MyInteface.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/atest/ReadFile.java" />
@@ -164,10 +182,8 @@
         <option value="$PROJECT_DIR$/front/src/main/java/com/example/chx/controller/HiController.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/test2/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty2/EchoServerHandler.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/lambda/LambdaTest.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/example/chx/ILoginService.java" />
-        <option value="$PROJECT_DIR$/biz/pom.xml" />
         <option value="$PROJECT_DIR$/front/pom.xml" />
         <option value="$PROJECT_DIR$/front/src/main/java/com/example/chx/controller/CallTestController.java" />
         <option value="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/ClientLogin.java" />
@@ -179,8 +195,20 @@
         <option value="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/NetSession.java" />
         <option value="$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/CallTestController.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/example/chx/netsession/INetSession.java" />
-        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServer.java" />
         <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/biz/pom.xml" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServer.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServer.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClient.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClientHandler.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServerHandler.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/javaassert/Client.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Server.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Client.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/TestConsumer.java" />
+        <option value="$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/ConsumerImpl.java" />
       </list>
     </option>
   </component>
@@ -327,7 +355,7 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="chx" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
@@ -340,8 +368,8 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="chx" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-              <item name="eventbus" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
@@ -353,8 +381,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="chx" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
@@ -362,126 +389,58 @@
               <item name="biz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="chx" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="chx" type="462c0819:PsiDirectoryNode" />
-              <item name="netsession" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:5.0.0.Alpha2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:5.0.0.Alpha2" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-5.0.0.Alpha2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:5.0.0.Alpha2" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-5.0.0.Alpha2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:5.0.0.Alpha2" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-5.0.0.Alpha2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:5.0.0.Alpha2" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-5.0.0.Alpha2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -534,61 +493,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RunManager" selected="Application.TestConsumer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.netty.EchoClient" />
+    <configuration name="SimpleRouter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.vertx.vertx_web.SimpleRouter" />
       <module name="biz" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.chx.test.netty.*" />
+          <option name="PATTERN" value="com.example.chx.test.vertx.vertx_web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.netty.EchoServer" />
+    <configuration name="TestConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.chx.test2.consumer.TestConsumer" />
       <module name="biz" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.chx.test.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.lambda.LambdaTest" />
-      <module name="biz" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.chx.test.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.guava.eventbus.MainClient" />
-      <module name="biz" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.chx.test.guava.eventbus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.chx.test.proxy.MainTest" />
-      <module name="biz2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.chx.test.proxy.*" />
+          <option name="PATTERN" value="com.example.chx.test2.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -755,19 +681,13 @@
       <item itemvalue="Spring Boot.Biz2Application" />
       <item itemvalue="Spring Boot.Eureka3Application" />
       <item itemvalue="Spring Boot.FrontApplication" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.MainClient" />
-      <item itemvalue="Application.LambdaTest" />
-      <item itemvalue="Application.MainTest (1)" />
+      <item itemvalue="Application.SimpleRouter" />
+      <item itemvalue="Application.TestConsumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.MainTest (1)" />
-        <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.MainClient" />
+        <item itemvalue="Application.TestConsumer" />
+        <item itemvalue="Application.SimpleRouter" />
       </list>
     </recent_temporary>
   </component>
@@ -843,6 +763,18 @@
       <workItem from="1547628859327" duration="4832000" />
       <workItem from="1547782104997" duration="172000" />
       <workItem from="1549953337026" duration="91000" />
+      <workItem from="1549957824542" duration="5349000" />
+      <workItem from="1550127169542" duration="5088000" />
+      <workItem from="1551148555741" duration="7192000" />
+      <workItem from="1551165804198" duration="6000" />
+      <workItem from="1551165973388" duration="311000" />
+      <workItem from="1551167707750" duration="12000" />
+      <workItem from="1551662819459" duration="1141000" />
+      <workItem from="1551686933918" duration="133000" />
+      <workItem from="1551687316068" duration="1836000" />
+      <workItem from="1552467245362" duration="17000" />
+      <workItem from="1552960876404" duration="729000" />
+      <workItem from="1553152161622" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="guava cache缓存测试">
       <created>1541728271077</created>
@@ -865,11 +797,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545209907474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1549957857131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549957857131</updated>
+    </task>
+    <task id="LOCAL-00005" summary="vert.x/vertx_web/Router">
+      <created>1549961855794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549961855794</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160764000" />
+    <option name="totallyTimeSpent" value="182842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -877,7 +823,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.30827886" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.2908497" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -886,31 +832,32 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.24945533" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.2788671" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" visible="true" weight="0.29411766" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32104123" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.24291939" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32026145" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23933902" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49946696" weight="0.32897604" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -948,7 +895,9 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="guava cache缓存测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="guava cache缓存测试" />
+    <MESSAGE value="update" />
+    <MESSAGE value="vert.x/vertx_web/Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="vert.x/vertx_web/Router" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,28 +933,10 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ProtobufHeadDecoder.java</url>
           <line>15</line>
           <properties />
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/calltest/ILoginServiceImpl.java</url>
@@ -1026,159 +957,41 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClientHandler.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="70" />
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="71" />
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="72" />
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="73" />
+      <option name="time" value="105" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>selector.keys()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/bootstrap/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty2/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/ChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3888">
-          <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3969">
-          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10638">
-          <caret line="420" column="20" selection-start-line="420" selection-start-column="20" selection-end-line="420" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/arraylist/DeleteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/jvm/DuiOutOfMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/socket2/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/taskschdule/MyJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/taskschdule/QuartzScheduling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3699">
-          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/lambda/LambdaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/main/java/com/example/chx/controller/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/main/java/com/example/chx/calltest/login.java" />
     <entry file="file://$PROJECT_DIR$/front/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -1320,20 +1133,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1347,38 +1150,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ProtobufHeadDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1393,6 +1168,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/vertx/vertx-core/3.5.2/vertx-core-3.5.2.jar!/io/vertx/core/AbstractVerticle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/vertx/vertx-core/3.5.2/vertx-core-3.5.2.jar!/io/vertx/core/Vertx.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/biz.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/vertx/vertx-core/3.5.2/vertx-core-3.5.2.jar!/io/vertx/core/net/impl/transport/Transport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty2/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/netty/ChatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/javaassert/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/socket/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="60" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12933">
+          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/socket/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/NioTest.java" />
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/lambda/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/nio/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test/vertx/vertx_web/SimpleRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workingsoftware/jdk1.8/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/ConsumerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biz/src/main/java/com/example/chx/test2/consumer/TestConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
